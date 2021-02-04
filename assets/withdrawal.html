@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>withdrawal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/withdrawal.min.css" data-inprogress="">
+</head>
+
+<body>
+<!-- Header -->
+<include src="assets/templates/header.html"></include>
+<!-- Popup -->
+<include src="assets/templates/popup.html"></include>
+<!-- Основной контент -->
+<div class="wrapper">
+    <section class="withdrawal">
+        <div class="container">
+            <h2 class="title">
+                Withdrawal
+            </h2>
+            <ul class="breadcrumbs">
+                <li><a href="account.html">Personal account</a></li>
+                <li><span>/</span></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><span>/</span></li>
+                <li><a href="#" class="active">withdrawal</a></li>
+
+            </ul>
+            <div class="content">
+                <div class="links_box">
+                    <div class="links">
+                        <div class="img">
+                                <img src="img/icon_4.png">
+                            </div>
+                        <p>
+                                <span>Your current balance</span>$ 10.11
+                            </p>
+                    </div>
+                </div>
+                <div class="form_box">
+                    <h4>Select a withdrawal method</h4>
+                    <div class="form">
+                        <form>
+                            <div class="box">
+                                <ul class="radio_block">
+                                    <li class="tab"><label><input type="radio" name="group1" checked>Perfect Money</label></li>
+                                    <li class="tab"><label><input type="radio" name="group1" checked>Bitcoin / BTC</label></li>
+                                    <li class="tab"><label><input type="radio" name="group1">Ethereum / ETH</label></li>
+                                    <li class="tab"><label><input type="radio" name="group1">USDT / ERC20</label></li>
+                                    <li class="tab"><label><input type="radio" name="group1">Litecoin/ LTC</label></li>
+                                    <li class="tab"><label><input type="radio" name="group1">Ethereum / ETH</label></li>
+                                    <li class="tab"><label><input type="radio" name="group1">Payeer</label></li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <div class="input_box">
+                                    <label>Enter the withdrawal amount, $</label>
+                                    <span><input placeholder="100"></span>
+                                    <p>min. 10.00 USD, max. 50,000.00 USD</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="input_box">
+                                    <label>Payment details</label>
+                                    <span><input placeholder="Message here"></span>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="input_box">
+                                    <label>Сonfirmation code</label>
+                                    <span><input placeholder="9501"></span><button class="resize">Receive a code</button>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="button_box">
+                                    <button class="w_button">Withdraw</button>
+                                    <button class="i_button">Increase withdrawal limits</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<include src="assets/templates/footer.html"></include>
+
+<!-- Скрипты -->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/withdrawal.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

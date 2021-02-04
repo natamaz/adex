@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="down-dir" unicode="&#xe800;" d="M460 550l-230-400-230 400 460 0z" horiz-adv-x="460" />
+
+<glyph glyph-name="ok" unicode="&#xe801;" d="M933 534q0-22-16-38l-404-404-76-76q-16-15-38-15t-38 15l-76 76-202 202q-15 16-15 38t15 38l76 76q16 16 38 16t38-16l164-165 366 367q16 16 38 16t38-16l76-76q16-15 16-38z" horiz-adv-x="1000" />
+
+<glyph glyph-name="plus-1" unicode="&#xe804;" d="M550 400q30 0 30-50t-30-50l-210 0 0-210q0-30-50-30t-50 30l0 210-210 0q-30 0-30 50t30 50l210 0 0 210q0 30 50 30t50-30l0-210 210 0z" horiz-adv-x="580" />
+
+<glyph glyph-name="close" unicode="&#xe806;" d="M988 838c-16 16-41 16-57 0l-919-919c-16-16-16-41 0-57 8-8 18-12 28-12 11 0 21 4 29 12l919 919c16 16 16 41 0 57z m0-919l-919 919c-16 16-41 16-57 0-16-16-16-41 0-57l919-919c8-8 18-12 29-12 10 0 20 4 28 12 16 16 16 41 0 57z" horiz-adv-x="1000" />
+
+<glyph glyph-name="tick" unicode="&#xe83d;" d="M0 318l342-343 658 657-94 93-564-562-249 249-93-94z" horiz-adv-x="1000" />
+
+<glyph glyph-name="open-menu" unicode="&#xe86e;" d="M958 447h-916c-23 0-42 19-42 42s19 42 42 42h916c23 0 42-19 42-42s-19-42-42-42z m0 0m0 320h-916c-23 0-42 18-42 41s19 42 42 42h916c23 0 42-19 42-42s-19-41-42-41z m0 0m0-639h-916c-23 0-42 18-42 41s19 42 42 42h916c23 0 42-19 42-42s-19-41-42-41z m0 0" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

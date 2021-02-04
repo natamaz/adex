@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Account settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/account.min.css" data-inprogress="">
+</head>
+
+<body>
+<!-- Header -->
+<include src="assets/templates/header.html"></include>
+<!-- Popup -->
+<include src="assets/templates/popup.html"></include>
+<!-- Основной контент -->
+<div class="wrapper">
+    <section class="account">
+        <div class="container">
+            <h2 class="title">
+                Account settings
+            </h2>
+            <ul class="breadcrumbs">
+                <li><a href="account.html">Personal account</a></li>
+                <li><span>/</span></li>
+                <li><a href="#" class="active">Account settings</a></li>
+
+            </ul>
+            <div class="content">
+                <form>
+                    <div class="box">
+                        <h4>Avatar</h4>
+                        <div class="user_img">
+                           <div class="img"></div>
+                           <div class="input__wrapper">
+                                    <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                                    <label for="input__file" class="input__file-button">
+                                        <span class="input__file-button-text">Upload</span>
+                                    </label>
+                                </div>
+                           <p>Supported formats: JPG, PNG, BMP. Maximum file size 5 mb</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4>Personal data</h4>
+                        <div class="user_info">
+                           <div class="col">
+                               <p>Name<span>Username</span></p>
+                               <div class="input_box">
+                                   <label>
+                                       Mobile
+                                   </label>
+                                   <span><input placeholder="+12345678910" class="phone_mask"></span>
+                               </div>
+                           </div>
+                            <div class="col">
+                                <p>Surname<span>Username1</span></p>
+                                <div class="input_box">
+                                    <label>
+                                        Email
+                                    </label>
+                                    <span><input placeholder="Username@gmail.com"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box bottom">
+                        <h4>Security</h4>
+                        <div class="user_info">
+                            <div class="col">
+                                <div class="input_box">
+                                    <label>
+                                        Old Password
+                                    </label>
+                                    <span><input placeholder="********"></span>
+                                </div>
+                                <div class="input_box">
+                                    <label>
+                                        New password
+                                    </label>
+                                    <span><input placeholder="Username@gmail.com"></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input_box">
+                                    <label>
+                                        Enter new password once again
+                                    </label>
+                                    <span><input placeholder="*********"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="save">Save settings</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<include src="assets/templates/footer.html"></include>
+
+<!-- Скрипты -->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/shares.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

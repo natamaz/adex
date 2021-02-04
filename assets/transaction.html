@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Deposit transaction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/transaction.min.css" data-inprogress="">
+</head>
+
+<body>
+<!-- Header -->
+<include src="assets/templates/header.html"></include>
+<!-- Popup -->
+<include src="assets/templates/popup.html"></include>
+<!-- Основной контент -->
+<div class="wrapper">
+    <section class="transaction">
+        <div class="container">
+            <h2 class="title">
+                Deposit transaction
+            </h2>
+            <ul class="breadcrumbs">
+                <li><a href="account.html">Personal account</a></li>
+                <li><span>/</span></li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><span>/</span></li>
+                <li><a href="#" class="active">Deposit transaction</a></li>
+
+            </ul>
+            <div class="content">
+                <div class="links_box">
+                    <div class="links">
+                        <div class="img">
+                            <img src="img/icon_4.png">
+                        </div>
+                        <p>
+                            <span>Your current balance</span>$ 10.11
+                        </p>
+                    </div>
+                </div>
+                <div class="form_box">
+                    <div class="form">
+                        <form>
+                            <div class="box">
+                                <div class="input_box">
+                                    <label>Enter the deposit amount, $</label>
+                                    <span><input placeholder="100"></span>
+                                </div>
+                                <div class="input_box">
+                                    <p>Select deposit method</p>
+                                    <ul class="radio_block">
+                                        <li class="tab active"><label><input type="radio" name="group1">Payeer</label></li>
+                                        <li class="tab"><label><input type="radio" name="group1">Perfect Money</label></li>
+                                        <li class="tab"><label><input type="radio" name="group1">Crypto currency</label></li>
+                                    </ul>
+                                    <p>Cryptocurrency funding requires several confirmation, exact time depends on  type of blockchain.</p>
+                                </div>
+                                <div class="button_box">
+                                    <button class="i_button">Replenish</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<include src="assets/templates/footer.html"></include>
+
+<!-- Скрипты -->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/transaction.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

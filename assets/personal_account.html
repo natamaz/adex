@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>personal_account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/personal_account.min.css" data-inprogress="">
+</head>
+
+<body>
+<!-- Header -->
+<include src="assets/templates/header.html"></include>
+<!-- Popup -->
+<include src="assets/templates/popup.html"></include>
+<!-- Основной контент -->
+<div class="wrapper">
+    <section class="personal_account">
+        <div class="container">
+            <h2 class="title">
+                Personal account
+            </h2>
+            <p class="user">
+                Welcome, <span>Username</span>
+            </p>
+            <div class="content">
+                <div class="tabs">
+                    <div class="top">
+                        <ul class="radio_block">
+                            <li class="title_tab">Summary for:</li>
+                            <li class="tab active"><label><input type="radio" name="group1" checked>Today</label></li>
+                            <li class="tab"><label><input type="radio" name="group1">Week</label></li>
+                            <li class="tab"><label><input type="radio" name="group1">Month</label></li>
+                            <li class="tab"><label><input type="radio" name="group1">Select a date</label></li>
+                        </ul>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="top_block">
+                            <div class="text">
+                                <h4>General Information</h4>
+                                <p>
+                                    Here you can find information
+                                    about your revenue and partners
+                                    in your network
+                                </p>
+                            </div>
+                            <div class="rating">
+                                <div class="box blue">
+                                    <div class="frame">
+                                         <div class="circle-big">
+                                                <div class="text">
+                                                   $ 10.11
+                                                </div>
+                                                <svg>
+                                                    <circle class="bg" cx="45" cy="45" r="40"></circle>
+                                                    <circle class="progress" cx="45" cy="45" r="40"></circle>
+                                                </svg>
+                                            </div>
+                                    </div>
+                                    <div class="text_rating">
+                                        <p>Your revenue</p>
+                                        <strong>+11%</strong>
+                                    </div>
+                                </div>
+                                <div class="box pinck">
+                                    <div class="frame">
+                                        <div class="circle-big">
+                                            <div class="text">
+                                                $ 10.11
+                                            </div>
+                                            <svg>
+                                                <circle class="bg" cx="45" cy="45" r="40"></circle>
+                                                <circle class="progress" cx="45" cy="45" r="40"></circle>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="text_rating">
+                                        <p>New partners</p>
+                                        <strong>0%</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="diagram_box">
+                            <div class="diagram">
+                                <img src="img/Graphic_2.png">
+                            </div>
+                            <div class="about">
+                                <div class="content_about">
+                                    <h5>My Tokens</h5>
+                                    <div class="box box_1">
+                                        <span>ADV</span>
+                                        <p>
+                                            Balance ADV
+                                            <strong>0,0000 ADV</strong>
+                                        </p>
+                                    </div>
+                                    <div class="box box_2">
+                                        <span>USD</span>
+                                        <p>
+                                            Market price
+                                            <strong>0,0000 USD</strong>
+                                        </p>
+                                    </div>
+                                    <div class="box box_3">
+                                        <span>USD</span>
+                                        <p>
+                                            Income
+                                            <strong>0,0000 USD</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<include src="assets/templates/footer.html"></include>
+
+<!-- Скрипты -->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/personalAccount.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

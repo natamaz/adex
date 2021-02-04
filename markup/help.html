@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/help.min.css" data-inprogress="">
+</head>
+
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <div class="overlay">
+            <nav class="overlayMenu">
+                <ul role="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#anchor" class="down">About us</a></li>
+                    <li><a href="opportunities.html">Opportunities</a></li>
+                    <li><a href="trading.html">Ad trading reports and platform news</a></li>
+                    <li><a href="help.html">Help center</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navBurger" role="navigation" id="navToggle"></div>
+        <div class="btn_block">
+            <a href="#" class="sign-form">Login</a><a href="#" class="Account-form">Sign Up</a>
+        </div>
+        <div class="user">
+            <div class="click">
+                <div class="img"></div>
+                <p class="links">Username<i class="icon-down-dir"></i></p>
+            </div>
+            <ul class="sub">
+                <li><a href="account.html">Account settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="home_header">
+    <div class="container">
+        <ul>
+            <li><a href="account.html">Homepage</a></li>
+            <li><a href="finance.html">Finance</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="shares.html">ADV Shares</a></li>
+            <li><a href="trading.html">News</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Popup -->
+<div class="signPopup animated ">
+    <div class="close"></div>
+    <div class="sign__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Sign In</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Login</label>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input_box">
+                        <label>Password</label>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <a href="#" class="password">Forgot Password?</a>
+                    <div class="button_box">
+                        <button class="signIn">Sign in</button>
+                        <button class="chancel">Chancel</button>
+                        <div class="registration">
+                            <p>Don’t have an account?</p>
+                            <button class="account">Create an Account</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="AccountPopup animated">
+    <div class="close"></div>
+    <div class="Account__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Create an Account</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Email</label>
+                        <input type="text" placeholder="Email here">
+                    </div>
+                    <div class="input_box">
+                        <label>Login</label>
+                        <input type="text" placeholder="Login here">
+                    </div>
+                    <div class="input_box">
+                        <label>Password</label>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <div class="input_box">
+                        <label>Repeat password</label>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <div class="button_box">
+                        <button class="signIn">Sign in</button>
+                        <button class="chancel">Chancel</button>
+                        <div class="registration">
+                            <p>Already have an account?</p>
+                            <button class="account">Sign in</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="recoveryPopup animated">
+    <div class="close"></div>
+    <div class="recovery__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Account recovery</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Email</label>
+                        <input type="text" placeholder="Email here">
+                    </div>
+                    <div class="button_box">
+                        <button class="signIn">Apply</button>
+                        <button class="chancel">Chancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="validPopup animated">
+    <div class="close"></div>
+    <div class="valid__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Create an Account</h2>
+                <p>A confirmation email was sent to your inbox</p>
+                <a href="#" class="Confirm">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="valid2Popup animated">
+    <div class="close"></div>
+    <div class="valid2__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Account recovery</h2>
+                <p>A confirmation email was sent to your inbox</p>
+                <a href="#" class="Confirm">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Основной контент -->
+<div class="wrapper">
+    <section class="help">
+        <div class="container">
+            <h2><span>H</span>elp center</h2>
+            <p>
+                Need with payments, withdrawals or using Ad-Ex? We'd love to help.
+            </p>
+            <div class="help_box">
+                <a href="#anchor1" class="box down box_1 revealator-slidedown  revealator-once revealator-delay1">
+                    <span>?</span>
+                    <h4>General questions</h4>
+                    <p>
+                        How to get started and all
+                        general staff
+                    </p>
+                </a>
+                <a href="#anchor2" class="box box_2 down revealator-slidedown  revealator-once revealator-delay2">
+                    <span>?</span>
+                    <h4>Payments questions</h4>
+                    <p>
+                        Get more detailed info
+                        about payments
+                    </p>
+                </a>
+                <a href="#anchor3" class="box box_3 down revealator-slidedown  revealator-once revealator-delay3">
+                    <span>?</span>
+                    <h4>Contact Us</h4>
+                    <p>
+                        Get more detailed info
+                        about AdEx
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="general" id="anchor1">
+        <div class="container">
+            <h3>General help</h3>
+            <div class="accordion">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">Так будет при закрытой информации</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Ad-Ex is a digital advertising solution powered by artificial intelegence and increased user privacy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">What is “Ad-Ex”? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Ad-Ex is a digital advertising solution powered by artificial intelegence and increased user privacy
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">Who can be a client of “Ad-Ex” </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Any adult person under the law of the country of residence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">How to join “Ad-Ex”? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                To become a member of our platform you need to undergo a simple registration procedure by following the link.
+                            </p>
+                            <p>
+                                After registration you will gain access to your personal account and affiliate program.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">Can I register more than one account?</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                No, multiple accounts are not allowed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">What personal data is needed for registration? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                We do not require from you any specific data and personal account verification. To get registered, you need to enter your name, e-mail
+                                and make up a password.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">I forgot my password. What should I do?  </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Just use ‘password recovery’ form and you will get all needed information to your email.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">I’ve registered. What’s next? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Simply login to your account and check out opportunities that Adex offers to you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">How to participate in affiliate program? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                You can find your partner link in the ‘partners’ section of your personal account.
+                            </p>
+                            <p>
+                                Just send it to your friends and start earning together.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Haven’t found an answer?<a href="#">Contact Us</a> </p>
+        </div>
+    </section>
+    <section class="payments" id="anchor2">
+        <div class="container">
+            <h3>Payments questions</h3>
+            <div class="accordion">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">How can I make my first investment?</a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Click the 'Deposit' button in the Finance section, enter desired amount, select the payment service and follow instructions
+                            </p>
+                            <p>
+                                If you made a deposit via  Perfect Money or Payeer, your deposit will be funded instantly.
+                            </p>
+                            <p>
+                                If you made a deposit via Bitcoin, Ethereum, Litecoin, it will be funded after the transaction is confirmed.
+                            </p>
+                            <p>
+                                This process can take 30 minutes or more.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">Can I reinvest my profits  </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Sure, you can do it in your personal account.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">Can I have multiple investments at the same time </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                Yes. You can have any amount of investments at the same time.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">How long my investments  will be active? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                We offer unlimited investment options, which means you'll gain profit all the time while you have any amount of $ADV shares.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">How to withdraw my profits? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                First of all, we are offer good reinvestment options that you can find in your personal account, but if you
+                                need to withdraw your funds, you should use Finance section of your personal account.
+                            </p>
+                            <p>
+                                Where are all the information about withdraw process including limits and estimated times for each payment service.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)">Should I pay taxes? </a>
+                    </div>
+                    <div class="panel-collapse">
+                        <div class="panel-body">
+                            <p>
+                                We do not share any personal information with third parties. The rest is up to you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Haven’t found an answer?<a href="#">Contact Us</a> </p>
+        </div>
+    </section>
+    <section class="bottom_block" id="anchor3">
+        <div class="container">
+            <div class="form_box">
+                <h4>
+                    Contact Us
+                </h4>
+                <p>
+                    If you didn't found the answer to your question, please contact
+                    us through our support center.
+                </p>
+                <p>
+                    Send us your questions, concerns or feedback.
+                </p>
+                <form>
+                    <div class="input_box">
+                        <input placeholder="Name">
+                    </div>
+                    <div class="input_box">
+                        <input placeholder="Email">
+                    </div>
+                    <div class="input_box">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Sumbit</button>
+                </form>
+            </div>
+            <div class="adress_box">
+                <h4>ADEX HOLDINGS LIMITED</h4>
+                <div class="box">
+                    <p>
+                        Company number
+                    </p>
+                   <p>
+                       <strong>
+                           10843338
+                       </strong>
+                   </p>
+                </div>
+                <div class="box">
+                    <p>
+                        Registered office address
+                    </p>
+                   <p>
+                       <strong>
+                           Ecl House, Lake Street,
+                       </strong>
+                       <strong>
+                           Leighton Buzzard,
+                       </strong>
+                       <strong>
+                           England, LU7 1RT
+                       </strong>
+                   </p>
+                </div>
+                <div class="contact">
+                    <a href="mail:adexcompany@gmail.com"><img src="img/email.png">adexcompany@gmail.com</a>
+                    <a href="tel:+1(234)567-8911"><img src="img/phone.png">+1(234)567-8911</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <p>
+            A digital advertising solution powered by
+            artificial intelegence and increased
+            user privacy
+        </p>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#anchor" class="down">About us</a></li>
+            <li><a href="opportunities.html">Opportunities</a></li>
+            <li><a href="trading.html">Ad trading reports and platform news</a></li>
+            <li><a href="help.html">Help center</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Скрипты -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/help.min.js"></script>
+<script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>

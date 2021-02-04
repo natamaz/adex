@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>personal_account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/personal_account.min.css" data-inprogress="">
+</head>
+
+<body>
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <div class="overlay">
+            <nav class="overlayMenu">
+                <ul role="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#anchor" class="down">About us</a></li>
+                    <li><a href="opportunities.html">Opportunities</a></li>
+                    <li><a href="trading.html">Ad trading reports and platform news</a></li>
+                    <li><a href="help.html">Help center</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navBurger" role="navigation" id="navToggle"></div>
+        <div class="btn_block">
+            <a href="#" class="sign-form">Login</a><a href="#" class="Account-form">Sign Up</a>
+        </div>
+        <div class="user">
+            <div class="click">
+                <div class="img"></div>
+                <p class="links">Username<i class="icon-down-dir"></i></p>
+            </div>
+            <ul class="sub">
+                <li><a href="account.html">Account settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="home_header">
+    <div class="container">
+        <ul>
+            <li><a href="account.html">Homepage</a></li>
+            <li><a href="finance.html">Finance</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="shares.html">ADV Shares</a></li>
+            <li><a href="trading.html">News</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Popup -->
+<div class="signPopup animated ">
+    <div class="close"></div>
+    <div class="sign__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Sign In</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Login</label>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input_box">
+                        <label>Password</label>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <a href="#" class="password">Forgot Password?</a>
+                    <div class="button_box">
+                        <button class="signIn">Sign in</button>
+                        <button class="chancel">Chancel</button>
+                        <div class="registration">
+                            <p>Don’t have an account?</p>
+                            <button class="account">Create an Account</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="AccountPopup animated">
+    <div class="close"></div>
+    <div class="Account__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Create an Account</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Email</label>
+                        <input type="text" placeholder="Email here">
+                    </div>
+                    <div class="input_box">
+                        <label>Login</label>
+                        <input type="text" placeholder="Login here">
+                    </div>
+                    <div class="input_box">
+                        <label>Password</label>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <div class="input_box">
+                        <label>Repeat password</label>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <div class="button_box">
+                        <button class="signIn">Sign in</button>
+                        <button class="chancel">Chancel</button>
+                        <div class="registration">
+                            <p>Already have an account?</p>
+                            <button class="account">Sign in</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="recoveryPopup animated">
+    <div class="close"></div>
+    <div class="recovery__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Account recovery</h2>
+                <form>
+                    <div class="input_box">
+                        <label>Email</label>
+                        <input type="text" placeholder="Email here">
+                    </div>
+                    <div class="button_box">
+                        <button class="signIn">Apply</button>
+                        <button class="chancel">Chancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="validPopup animated">
+    <div class="close"></div>
+    <div class="valid__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Create an Account</h2>
+                <p>A confirmation email was sent to your inbox</p>
+                <a href="#" class="Confirm">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="valid2Popup animated">
+    <div class="close"></div>
+    <div class="valid2__popup ">
+        <div class="content">
+            <div class="block_form">
+                <img src="img/logo.png">
+                <h2 class="title">Account recovery</h2>
+                <p>A confirmation email was sent to your inbox</p>
+                <a href="#" class="Confirm">Confirm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Основной контент -->
+<div class="wrapper">
+    <section class="personal_account">
+        <div class="container">
+            <h2 class="title">
+                Personal account
+            </h2>
+            <p class="user">
+                Welcome, <span>Username</span>
+            </p>
+            <div class="content">
+                <div class="tabs">
+                    <div class="top">
+                        <ul class="radio_block">
+                            <li class="title_tab">Summary for:</li>
+                            <li class="tab active"><label><input type="radio" name="group1" checked="">Today</label></li>
+                            <li class="tab"><label><input type="radio" name="group1">Week</label></li>
+                            <li class="tab"><label><input type="radio" name="group1">Month</label></li>
+                            <li class="tab"><label><input type="radio" name="group1">Select a date</label></li>
+                        </ul>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="top_block">
+                            <div class="text">
+                                <h4>General Information</h4>
+                                <p>
+                                    Here you can find information
+                                    about your revenue and partners
+                                    in your network
+                                </p>
+                            </div>
+                            <div class="rating">
+                                <div class="box blue">
+                                    <div class="frame">
+                                         <div class="circle-big">
+                                                <div class="text">
+                                                   $ 10.11
+                                                </div>
+                                                <svg>
+                                                    <circle class="bg" cx="45" cy="45" r="40"></circle>
+                                                    <circle class="progress" cx="45" cy="45" r="40"></circle>
+                                                </svg>
+                                            </div>
+                                    </div>
+                                    <div class="text_rating">
+                                        <p>Your revenue</p>
+                                        <strong>+11%</strong>
+                                    </div>
+                                </div>
+                                <div class="box pinck">
+                                    <div class="frame">
+                                        <div class="circle-big">
+                                            <div class="text">
+                                                $ 10.11
+                                            </div>
+                                            <svg>
+                                                <circle class="bg" cx="45" cy="45" r="40"></circle>
+                                                <circle class="progress" cx="45" cy="45" r="40"></circle>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="text_rating">
+                                        <p>New partners</p>
+                                        <strong>0%</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="diagram_box">
+                            <div class="diagram">
+                                <img src="img/Graphic_2.png">
+                            </div>
+                            <div class="about">
+                                <div class="content_about">
+                                    <h5>My Tokens</h5>
+                                    <div class="box box_1">
+                                        <span>ADV</span>
+                                        <p>
+                                            Balance ADV
+                                            <strong>0,0000 ADV</strong>
+                                        </p>
+                                    </div>
+                                    <div class="box box_2">
+                                        <span>USD</span>
+                                        <p>
+                                            Market price
+                                            <strong>0,0000 USD</strong>
+                                        </p>
+                                    </div>
+                                    <div class="box box_3">
+                                        <span>USD</span>
+                                        <p>
+                                            Income
+                                            <strong>0,0000 USD</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <p>
+            A digital advertising solution powered by
+            artificial intelegence and increased
+            user privacy
+        </p>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#anchor" class="down">About us</a></li>
+            <li><a href="opportunities.html">Opportunities</a></li>
+            <li><a href="trading.html">Ad trading reports and platform news</a></li>
+            <li><a href="help.html">Help center</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Скрипты -->
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/personalAccount.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>

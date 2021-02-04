@@ -1,0 +1,229 @@
+.home_header{
+  display: block;
+}
+.header{
+  .container{
+    .btn_block{
+      display: none;
+    }
+    .user{
+      display: block;
+    }
+  }
+}
+.wrapper{
+  min-height: 100vh;
+  .finance{
+    padding:51px 0 0 0;
+    .container{
+      .content{
+        padding: 60px 0 0 0;
+        .links_box{
+          display: flex;
+          flex-wrap: wrap;
+
+          .links{
+            position: relative;
+            padding: 5px;
+            display: table;
+            margin: 0;
+            transition: 0.3s;
+            cursor: default;
+            &.active{
+              cursor: pointer;
+              a{
+                cursor: pointer;
+              }
+              &:hover{
+                box-shadow: 0 0 94px 15px rgba(14, 220, 245, 0.3);
+                border-radius: 10px;
+                background-color: #ffffff;
+              }
+            }
+            a{
+              display: flex;
+              justify-content: space-between;
+              cursor: default;
+              p{
+                color: #1d7093;
+                font-family: 'Roboto-Regular';
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0px 10px 0 21px;
+                span{
+                  display: block;
+                  font-family: 'Roboto-Regular';
+                  font-size: 16px;
+                  font-weight: 500;
+                  color: #b4d4ea;
+                }
+              }
+
+            }
+          }
+        }
+        .table_box{
+          padding: 37px 5px 20px 16px;
+          h4{
+            color: #1d7093;
+            font-family: 'Roboto-Regular';
+            font-size: 24px;
+            font-weight: 500;
+          }
+          table{
+            box-shadow: 0 0 49px rgba(14, 220, 245, 0.08);
+            border-radius: 15px;
+            background-color: #ffffff;
+            margin: 50px 0 50px 0;
+            width: 1140px;
+            tbody{
+              .top{
+                border-bottom: 1px solid #b4d4ea;
+                th{
+                  padding: 5px;
+                  h5{
+                    color: #1d7093;
+                    font-family: 'Roboto-Regular';
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-align: left;
+                  }
+                }
+              }
+              .bottom{
+                &.active{
+                  background-color: #f2f9fe;
+                }
+                td{
+                  padding: 5px;
+                  p{
+                    color: #b4d4ea;
+                    font-family: 'Roboto-Regular';
+                    font-size: 16px;
+                    font-weight: 500;
+                    span{
+                      color: #1adbfe;
+                      font-family: 'Roboto-Regular';
+                      font-size: 16px;
+                      font-weight: 500;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px){
+  .home_header{
+    display: block;
+  }
+  .wrapper{
+    min-height: 100vh;
+    .finance{
+      padding:51px 0 0 0;
+      .container{
+        .content{
+          padding: 60px 0 0 0;
+          .links_box{
+            display: flex;
+            flex-wrap: wrap;
+
+            .links{
+              position: relative;
+              padding: 20px 50px;
+              display: table;
+              margin: 0 126px 0 0;
+              transition: 0.3s;
+              cursor: default;
+              &.active{
+                cursor: pointer;
+                a{
+                  cursor: pointer;
+                }
+                &:hover{
+                  box-shadow: 0 0 94px 15px rgba(14, 220, 245, 0.3);
+                  border-radius: 10px;
+                  background-color: #ffffff;
+                }
+              }
+              a{
+                display: flex;
+                justify-content: space-between;
+                cursor: default;
+                p{
+                  color: #1d7093;
+                  font-family: 'Roboto-Regular';
+                  font-size: 16px;
+                  font-weight: 500;
+                  margin: 0px 10px 0 21px;
+                  span{
+                    display: block;
+                    font-family: 'Roboto-Regular';
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #b4d4ea;
+                  }
+                }
+
+              }
+            }
+          }
+          .table_box{
+            padding: 37px 5px 20px 16px;
+            h4{
+              color: #1d7093;
+              font-family: 'Roboto-Regular';
+              font-size: 24px;
+              font-weight: 500;
+            }
+            table{
+              box-shadow: 0 0 49px rgba(14, 220, 245, 0.08);
+              border-radius: 15px;
+              background-color: #ffffff;
+              margin: 50px 0 50px 0;
+              tbody{
+                .top{
+                  border-bottom: 1px solid #b4d4ea;
+                  th{
+                    padding: 5px 30px;
+                    h5{
+                      color: #1d7093;
+                      font-family: 'Roboto-Regular';
+                      font-size: 16px;
+                      font-weight: 500;
+                      text-align: left;
+                    }
+                  }
+                }
+                .bottom{
+                  &.active{
+                    background-color: #f2f9fe;
+                  }
+                  td{
+                    padding: 5px 30px;
+                    p{
+                      color: #b4d4ea;
+                      font-family: 'Roboto-Regular';
+                      font-size: 16px;
+                      font-weight: 500;
+                      span{
+                        color: #1adbfe;
+                        font-family: 'Roboto-Regular';
+                        font-size: 16px;
+                        font-weight: 500;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
